@@ -6,9 +6,16 @@ A logger object that enables logging to systemd journal (`journalctl`)
 ```bash
 git clone https://github.com/kirisakow/journal-logger.git
 
+cd journal-logger
+
+poetry install
+```
+```bash
 cd your-project
 
-poetry install --editable ../rel/path/to/journal-logger/
+poetry add --editable ../rel/path/to/journal-logger/
+
+poetry install
 ```
 
 ### Usage examples:
